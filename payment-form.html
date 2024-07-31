@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="payment-form-main-box">
+            <div class="payment-form-main-box-left">
+                <h2 class="payment-heading">Payment</h2>
+                <form action="">
+                    <div class="payment-form-main-box-left-sub-box">
+                        <div class="input-box">
+                            <span class="input-text">Full Name</span>
+                            <input type="text" placeholder="Enter Your Name" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="input-text">Email</span>
+                            <input type="email" placeholder="Enter Your Email" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="input-text">City</span>
+                            <input type="text" placeholder="Enter Your City" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="input-text">State</span>
+                            <input type="text" placeholder="Enter Your Name" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="input-text">Zip Code</span>
+                            <input type="number" placeholder="Enter Your Name" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="input-text">Name Of Card</span>
+                            <input type="text" placeholder="Enter Your Card Name" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="input-text">Credit Card Number</span>
+                            <input type="number" placeholder="1111-2222-3333-4444" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="input-text">Address</span>
+                            <input type="text" placeholder="Enter Your Address" required>
+                        </div>
+                    </div>
+                    <div class="check-box">
+                        <input type="checkbox" id="check" required>
+                        <label for="check">I have accepted your <a href="#">Terms & Conditions</a></label>
+                    </div>
+                    <input type="submit" value="Place Order" class="confrim-order">
+                </form>
+            </div>
+            <div class="payment-form-main-box-right">
+                <h2 class="total-Heading">Your order summary</h2>
+                <div class="summary-box">
+                    <div class="summary-sub-box">
+                        <span class="summary-tamplate-name">Hvacompany</span>
+                        <span class="summary-tamplate-price">$19.00</span>
+                        <button class="remove-btn">Remove</button>
+                    </div>
+                    <div class="summary-sub-box">
+                        <span class="summary-tamplate-name sub-total">Subtotal:</span>
+                        <span class="summary-tamplate-price">$19.00</span>
+                    </div>
+                    <div class="summary-sub-box">
+                        <span class="summary-tamplate-name sub-total">TAX: (VAT PK)</span>
+                        <span class="summary-tamplate-price">$0.00</span>
+                    </div>
+                    <div class="summary-sub-box">
+                        <span class="summary-tamplate-name sub-total">Total</span>
+                        <span class="summary-tamplate-price">$19.00</span>
+                    </div>
+                </div>
+                <h2 class="total-Heading payment-method">Payment Method</h2>
+                <div class="payment-method-box">
+                    <img src="all-payments-new.png" alt="Payment Method Icon" class="payment-method-icon">
+                </div>
+                <div class="even-more-reasons">
+                    <h3 class="even-more-reasons-heading-style">Even more reasons to choose ahteshamjamil</h3>
+                    <p class="even-more-reasons-description"><i class='bx bx-check'></i>15-day money-back guarantee</p>
+                    <p class="even-more-reasons-description"><i class='bx bx-check'></i>550+ 5-star reviews</p>
+                    <p class="even-more-reasons-description"><i class='bx bx-check'></i>20,000+ happy clients</p>
+                    <p class="even-more-reasons-description"><i class='bx bx-check'></i>350,000+ active installs</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
